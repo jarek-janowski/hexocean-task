@@ -39,6 +39,12 @@
                 font-weight: 700;
             }
         }
+        @media(min-width: 600px){
+            font-size: 16px;
+        }
+        @media(min-width: 1024px){
+            font-size: 18px;
+        }
     }
     &__button{
         padding: 8px 16px;
@@ -64,6 +70,12 @@
             box-shadow:  5px 5px 10px #d0d0d0,
                 -5px -5px 10px #f0f0f0;
         }
+        @media(min-width: 600px){
+            font-size: 16px;
+        }
+        @media(min-width: 1024px){
+            font-size: 18px;
+        }
     }
     &__content{
         display: flex;
@@ -71,9 +83,9 @@
         align-items: center;
         justify-content: center;
         border-radius: 16px;
-        max-height: 340px;
-        width: 90%;
-        max-width: 550px;
+        max-height: 500px;
+        width: 80%;
+        max-width: 500px;
         background-color: #e0e0e0;
         padding: 24px;
        & > div {
@@ -97,6 +109,12 @@
         font-size: 16px;
         text-shadow: 5px 5px 10px #b5b5b5,
         -5px -5px 10px #ffffff;
+        @media(min-width: 600px){
+            font-size: 19px;
+        }
+        @media(min-width: 1024px){
+            font-size: 22px;
+        }
     }
     
 }
