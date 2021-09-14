@@ -1,4 +1,6 @@
-# HexOcean task
+# DEMO
+
+https://jarek-janowski.github.io/hexocean-task/
 
 ## TOOLS
 
