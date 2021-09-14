@@ -1,0 +1,46 @@
+@import '../../constants.scss';
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ccc inset;
+  box-shadow: inset 5px 5px 10px #d0d0d0,
+            inset -5px -5px 10px #f0f0f0;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.error-message{
+    color: red;
+    margin-top: 4px;
+    font-size: 12px;
+    height: 12px;
+}
+input {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 10px #d0d0d0,
+            inset -5px -5px 10px #f0f0f0;
+    &:focus{
+        outline: none;
+        box-shadow: inset 5px 5px 10px #b5b5b5,
+            inset -5px -5px 10px #ffffff;
+    }
+    @media(min-width: 1024px){
+        font-size: 20px;
+        padding: 12px;
+    }
+}
+
+
+

@@ -1,0 +1,86 @@
+@import '../../constants.scss';
+
+.add-dish-form{
+
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    padding: 0 0 32px;
+    & button {
+        padding: 8px 16px;
+        width: 60%;
+        margin: 32px auto 0;
+        // border: 2px solid $blue;
+        border: none;
+        background-color: #e0e0e0;
+        color: $blue;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        width: 50%;
+        max-width: 300px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #d0d0d0,
+                    -5px -5px 10px #f0f0f0;
+        &:hover:enabled{
+            border-color: $darkblue;
+            color: $darkblue;
+            background: linear-gradient(145deg, #f0f0f0, #cacaca);
+            box-shadow:  5px 5px 10px #d0d0d0,
+             -5px -5px 10px #f0f0f0;
+        }
+        &:disabled {
+            color: gray;
+            box-shadow: inset 5px 5px 10px #d0d0d0,
+                        inset -5px -5px 10px #f0f0f0;
+        }
+        @media(min-width: 1024px){
+            font-size: 22px;
+            padding: 12px 16px;
+        }
+    }
+    & label {
+        display: flex;
+        flex-direction: column;
+        margin: 8px 0;
+        color: $darkblue;
+        @media(min-width: 1024px){
+            font-size: 22px;
+        }
+    }
+    & select {
+        padding: 8px 12px;
+        color: $darkblue;
+        background-color: #e0e0e0;
+        // border: 1px solid $lightblue;
+        border: none;
+        cursor: pointer;
+        margin: 16px 0 24px;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 5px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #d0d0d0,
+             -5px -5px 10px #f0f0f0;
+        &:hover {
+            color: $darkblue;
+            outline: none;
+            
+            background: linear-gradient(145deg, #cacaca, #f0f0f0);
+            box-shadow:  5px 5px 10px #d0d0d0,
+                        -5px -5px 10px #f0f0f0;
+        }
+        &:focus {
+            outline: none;
+        }
+        & > option {
+            box-shadow:  5px 5px 10px #d0d0d0,
+                        -5px -5px 10px #f0f0f0;
+            background: #fff;
+        }
+        @media(min-width: 1024px){
+            font-size: 22px;
+        }
+    }
+}
