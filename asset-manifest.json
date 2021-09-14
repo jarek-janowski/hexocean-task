@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hexocean-task/static/css/main.108e723f.chunk.css",
+    "main.js": "/hexocean-task/static/js/main.7e49133f.chunk.js",
+    "main.js.map": "/hexocean-task/static/js/main.7e49133f.chunk.js.map",
+    "runtime-main.js": "/hexocean-task/static/js/runtime-main.c20d3999.js",
+    "runtime-main.js.map": "/hexocean-task/static/js/runtime-main.c20d3999.js.map",
+    "static/js/2.fddfc265.chunk.js": "/hexocean-task/static/js/2.fddfc265.chunk.js",
+    "static/js/2.fddfc265.chunk.js.map": "/hexocean-task/static/js/2.fddfc265.chunk.js.map",
+    "static/js/3.b94bd739.chunk.js": "/hexocean-task/static/js/3.b94bd739.chunk.js",
+    "static/js/3.b94bd739.chunk.js.map": "/hexocean-task/static/js/3.b94bd739.chunk.js.map",
+    "index.html": "/hexocean-task/index.html",
+    "static/css/main.108e723f.chunk.css.map": "/hexocean-task/static/css/main.108e723f.chunk.css.map",
+    "static/js/2.fddfc265.chunk.js.LICENSE.txt": "/hexocean-task/static/js/2.fddfc265.chunk.js.LICENSE.txt",
+    "static/media/spinner.3f640995.svg": "/hexocean-task/static/media/spinner.3f640995.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c20d3999.js",
+    "static/js/2.fddfc265.chunk.js",
+    "static/css/main.108e723f.chunk.css",
+    "static/js/main.7e49133f.chunk.js"
+  ]
+}
